@@ -1,0 +1,18 @@
+{
+  "name": "trueautomation-javascript",
+  "version": "1.0.0",
+  "description": "Javascript + TrueAutomation example project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/specs/login_logout.js"
+  },
+  "devDependencies": {
+    "trueautomation-selenium-webdriver": "~0.3",
+    "trueautomation-helper": "~0.3",
+    "wdio-trueautomation-service": "~0.3"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "selenium-webdriver": "~3.6.0"
+  }
+}
