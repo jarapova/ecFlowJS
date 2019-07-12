@@ -17,7 +17,6 @@ const assert = require('assert');
         let expectedError = "Invalid user 'admin' or incorrect password";
 
         assert.equal(actualError, expectedError);
-
         console.log("Test completed successfully. Email or password not true");
     } finally {
         await driver.quit();

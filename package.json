@@ -4,7 +4,7 @@
   "description": "Javascript + TrueAutomation example project",
   "main": "index.js",
   "scripts": {
-    "test": "node test/specs/login_logout.js"
+    "test": "node test/specs/login_with_wrong_pass.js"
   },
   "devDependencies": {
     "trueautomation-selenium-webdriver": "~0.3",
